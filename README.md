@@ -1,4 +1,4 @@
-# FichaDrive · En ruta
+# DRIVE
 
 Web: https://fichadrive.promociones7819.workers.dev
 
@@ -68,3 +68,10 @@ Selector Euskara / Castellano, con euskera por defecto. La preferencia se conser
 ## Entornos y autovaloración
 
 La clase admite varios entornos a la vez mediante botones de selección. Las clases antiguas conservan su entorno original. La autovaloración del alumno tiene opciones independientes y combinables: Bien, Mal, A gusto, Nervioso/a, Tranquilo/a, Con confianza, Con dudas, Cansado/a y Motivado/a. Se distingue de las observaciones del profesor, está disponible en modo rápido y se incluye en historial, informe, PDF y copias JSON. Ambas funciones están traducidas a euskera.
+
+
+## DRIVE e iPad vertical
+
+Logo original proporcionado por el usuario en la cabecera y los informes/PDF. Inicio reducido a crear alumno o recuperar copia, con ejemplo plegado. En iPad vertical se usa una sola columna, búsqueda de alumnos visible y botones de valoración de al menos 60 px de alto. Verificado con Chromium y WebKit en 768×1024, 820×1180, 834×1194 y 1024×1366, en ambos idiomas. Son pruebas de navegador, no una prueba sobre un iPad físico.
+
+Pruebas: `npm run test:ipad` y `npm run test:ipad:webkit` con servidor local en el puerto 8800.

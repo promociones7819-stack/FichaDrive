@@ -1,1 +1,1 @@
-{"name": "FichaDrive · Ikaslearen fitxa", "short_name": "FichaDrive", "start_url": "/", "display": "standalone", "background_color": "#f5f6f2", "theme_color": "#176253", "icons": [{"src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}], "lang": "eu"}
+{"name": "DRIVE", "short_name": "DRIVE", "start_url": "/", "display": "standalone", "background_color": "#f5f6f2", "theme_color": "#176253", "icons": [{"src": "/drive-logo.png", "sizes": "294x90", "type": "image/png", "purpose": "any"}], "lang": "eu"}
