@@ -1,7 +1,7 @@
 import {chromium} from '@playwright/test';
 import assert from 'node:assert/strict';
 const b=await chromium.launch();const p=await b.newPage({viewport:{width:1024,height:1366}});const errors=[];p.on('pageerror',e=>errors.push(e.message));
-await p.goto('http://localhost:8799');await p.getByRole('button',{name:'Crear mi primer alumno'}).click();await p.locator('[name=name]').fill('Objetivos');await p.getByRole('button',{name:'Crear alumno',exact:true}).click();
+await p.addInitScript(()=>localStorage.setItem('fichadrive-language','es'));await p.goto('http://localhost:8800');await p.getByRole('button',{name:'Crear mi primer alumno'}).click();await p.locator('[name=name]').fill('Objetivos');await p.getByRole('button',{name:'Crear alumno',exact:true}).click();
 assert.equal(await p.locator('.rating-row').count(),9);
 await p.locator('[data-goal="8"]').click();await p.locator('[data-rating="8:1"]').click();assert.equal(await p.locator('[data-next="8"]').getAttribute('aria-pressed'),'true');assert.match(await p.locator('[data-goal="8"]').innerText(),/Reforzar/);
 await p.locator('[data-rating="8:3"]').click();assert.equal(await p.locator('[data-next="8"]').getAttribute('aria-pressed'),'false');assert.match(await p.locator('[data-goal="8"]').innerText(),/Logrado/);

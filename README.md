@@ -45,7 +45,7 @@ El generador PDF está incluido en `public/jspdf.umd.min.js`, sin dependencias d
 
 ## Verificación
 
-Con servidor local en puerto 8799: `npx playwright install chromium` y `npm test`.
+Con servidor local en puerto 8800: `npx playwright install chromium` y `npm test`.
 Pruebas de creación de alumno, borrador tras recarga, marcar/desmarcar/deshacer, finalizar, editar, evolución, descarga PDF, copia y recuperación, sin conexión y ausencia de desbordamiento en 1024, 768 y 390 píxeles. No sustituye una prueba física en Safari/iPad.
 
 
@@ -58,3 +58,8 @@ Aparcamiento es el noveno aspecto; no cambia el orden ni el significado de las o
 Las valoraciones actualizan el resultado de cada objetivo: sin valorar = pendiente; con ayuda = reforzar; mejorando = en progreso; autónomo = logrado. Se proponen para la próxima clase todos los aspectos valorados con ayuda o mejorando y los objetivos pendientes. Una selección manual prevalece hasta pulsar «Usar sugerencias automáticas».
 
 Evolución incluye el resultado de los objetivos por sesión y los cambios del borrador actual; los informes y PDF incluyen los objetivos y sus resultados.
+
+
+## Idiomas
+
+Selector Euskara / Castellano, con euskera por defecto. La preferencia se conserva en el dispositivo y funciona sin conexión. Interfaz, formularios, avisos, informes impresos y PDF usan el idioma elegido. Los nombres, las notas libres y los valores guardados de las fichas no se traducen ni se modifican.

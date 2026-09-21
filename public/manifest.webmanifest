@@ -1,1 +1,1 @@
-{"name":"En ruta · Ficha de alumno","short_name":"En ruta","start_url":"/","display":"standalone","background_color":"#f5f6f2","theme_color":"#176253","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]}
+{"name": "FichaDrive · Ikaslearen fitxa", "short_name": "FichaDrive", "start_url": "/", "display": "standalone", "background_color": "#f5f6f2", "theme_color": "#176253", "icons": [{"src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}], "lang": "eu"}

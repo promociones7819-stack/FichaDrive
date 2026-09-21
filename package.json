@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "test": "node tests/flow.mjs && node tests/goals.mjs"
+    "test": "node tests/flow.mjs && node tests/goals.mjs && node tests/language.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0",
