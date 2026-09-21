@@ -63,3 +63,8 @@ Evolución incluye el resultado de los objetivos por sesión y los cambios del b
 ## Idiomas
 
 Selector Euskara / Castellano, con euskera por defecto. La preferencia se conserva en el dispositivo y funciona sin conexión. Interfaz, formularios, avisos, informes impresos y PDF usan el idioma elegido. Los nombres, las notas libres y los valores guardados de las fichas no se traducen ni se modifican.
+
+
+## Entornos y autovaloración
+
+La clase admite varios entornos a la vez mediante botones de selección. Las clases antiguas conservan su entorno original. La autovaloración del alumno tiene opciones independientes y combinables: Bien, Mal, A gusto, Nervioso/a, Tranquilo/a, Con confianza, Con dudas, Cansado/a y Motivado/a. Se distingue de las observaciones del profesor, está disponible en modo rápido y se incluye en historial, informe, PDF y copias JSON. Ambas funciones están traducidas a euskera.
