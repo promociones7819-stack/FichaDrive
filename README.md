@@ -75,3 +75,8 @@ La clase admite varios entornos a la vez mediante botones de selección. Las cla
 Logo original proporcionado por el usuario en la cabecera y los informes/PDF. Inicio reducido a crear alumno o recuperar copia, con ejemplo plegado. En iPad vertical se usa una sola columna, búsqueda de alumnos visible y botones de valoración de al menos 60 px de alto. Verificado con Chromium y WebKit en 768×1024, 820×1180, 834×1194 y 1024×1366, en ambos idiomas. Son pruebas de navegador, no una prueba sobre un iPad físico.
 
 Pruebas: `npm run test:ipad` y `npm run test:ipad:webkit` con servidor local en el puerto 8800.
+
+
+## Inicio y apartados desplegables
+
+El logo DRIVE lleva al inicio con siete accesos: alumnos, entornos/recorrido, objetivo del día, valoración, apunte del profesor, autovaloración del alumno y próxima sesión. Selecciona un alumno en Alumnos y pulsa un apartado para editarlo. La ficha usa siete paneles plegables, cerrados por defecto; cada acceso abre únicamente el panel correspondiente. Marcar opciones conserva el panel abierto y el borrador se guarda al instante. Recorrido es texto opcional y aparece en informe/PDF. La interfaz en euskera usa Saioa para sesión.

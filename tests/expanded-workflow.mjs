@@ -1,0 +1,3 @@
+// Existing data-flow regressions use all panels expanded. Navigation/collapse
+// behavior is separately exercised by navigation.mjs in Chromium and WebKit.
+export async function expandedWorkflow(page){await page.addInitScript(()=>{const expand=()=>{const dashboard=document.querySelector('.dashboard');const entry=dashboard?.querySelector('[data-nav=assessment]:not([disabled])');if(entry){entry.click();return}document.querySelectorAll('.fold-section:not([open])').forEach(d=>d.open=true)};document.addEventListener('DOMContentLoaded',()=>{new MutationObserver(expand).observe(document.querySelector('#app'),{childList:true,subtree:true});expand()})})}
