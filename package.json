@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "test": "node tests/flow.mjs && node tests/goals.mjs && node tests/language.mjs && node tests/context.mjs && node tests/navigation.mjs",
+    "test": "node tests/flow.mjs && node tests/goals.mjs && node tests/language.mjs && node tests/context.mjs && node tests/navigation.mjs && node tests/sharing.mjs",
     "test:ipad": "node tests/ipad.mjs",
     "test:ipad:webkit": "BROWSER=webkit node tests/ipad.mjs"
   },

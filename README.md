@@ -80,3 +80,10 @@ Pruebas: `npm run test:ipad` y `npm run test:ipad:webkit` con servidor local en 
 ## Inicio y apartados desplegables
 
 El logo DRIVE lleva al inicio con siete accesos: alumnos, entornos/recorrido, objetivo del día, valoración, apunte del profesor, autovaloración del alumno y próxima sesión. Selecciona un alumno en Alumnos y pulsa un apartado para editarlo. La ficha usa siete paneles plegables, cerrados por defecto; cada acceso abre únicamente el panel correspondiente. Marcar opciones conserva el panel abierto y el borrador se guarda al instante. Recorrido es texto opcional y aparece en informe/PDF. La interfaz en euskera usa Saioa para sesión.
+
+
+## Copias completas y compartir alumnos
+
+En Inicio, «Descargar copia completa» genera un JSON con todos los alumnos, historiales, borradores y preferencia de idioma. «Descargar alumno» exporta solo la ficha seleccionada; también está disponible para cada alumno en el listado y en su ficha desplegable. Incluye todas sus sesiones, entornos, recorridos, objetivos, notas, autovaloración y borrador.
+
+Comparte el archivo JSON con el otro profesor por el medio que prefieras. En su DRIVE debe pulsar «Importar copia o alumno». Un archivo individual añade el alumno conservando las demás fichas. Si coincide su identificador, se ofrece añadir una copia independiente o sustituir expresamente esa ficha; no se fusionan clases. Un nombre idéntico con identificador distinto se avisa y se mantiene como ficha independiente. Una copia completa sigue restaurándose mediante confirmación, sustituyendo todos los datos. Se conservan las importaciones de copias antiguas v1/v2.
