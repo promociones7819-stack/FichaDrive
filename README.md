@@ -87,3 +87,10 @@ El logo DRIVE lleva al inicio con siete accesos: alumnos, entornos/recorrido, ob
 En Inicio, «Descargar copia completa» genera un JSON con todos los alumnos, historiales, borradores y preferencia de idioma. «Descargar alumno» exporta solo la ficha seleccionada; también está disponible para cada alumno en el listado y en su ficha desplegable. Incluye todas sus sesiones, entornos, recorridos, objetivos, notas, autovaloración y borrador.
 
 Comparte el archivo JSON con el otro profesor por el medio que prefieras. En su DRIVE debe pulsar «Importar copia o alumno». Un archivo individual añade el alumno conservando las demás fichas. Si coincide su identificador, se ofrece añadir una copia independiente o sustituir expresamente esa ficha; no se fusionan clases. Un nombre idéntico con identificador distinto se avisa y se mantiene como ficha independiente. Una copia completa sigue restaurándose mediante confirmación, sustituyendo todos los datos. Se conservan las importaciones de copias antiguas v1/v2.
+
+
+## Plantilla Aitzol
+
+Se elige en Nuevo alumno / Editar ficha, campo Plantilla. Incluye 83 criterios transcritos de Fitxa-Aitzol.pdf en 14 grupos, respetando los códigos originales (el grupo 10 está vacío en el documento). Las valoraciones usan la escala formativa de DRIVE, no una clasificación oficial de faltas de examen. Los criterios no aplicables se dejan sin marcar. En las incidencias del grupo 15 se valora la capacidad de prevenirlas o resolverlas, no su gravedad.
+
+Cada sesión conserva su plantilla. Cambiar la del alumno afecta a sesiones nuevas; un borrador con datos conserva la anterior, mientras que un borrador inicial sin trabajo se reinicia con la elegida. Los objetivos solo se heredan de sesiones de la misma plantilla. La gráfica de evolución muestra la plantilla actual y no mezcla escalas. El histórico y PDF admiten ambas plantillas.
